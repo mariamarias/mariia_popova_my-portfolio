@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria Popova — Designer & Animator</title>
+  <meta name="description" content="Portfolio of Maria Popova — multidisciplinary designer and animator specializing in motion, interaction, and visual storytelling." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Cursor glow -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ───────────── NAV ───────────── -->
+  <header class="nav-header" id="navHeader" role="banner">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="Maria Popova — Home">
+        <span class="logo-mark">✦</span>
+        <span class="logo-text">Maria Popova</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ───────────── HERO ───────────── -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow animate-on-scroll">Interactive Design & Animation</p>
+        <h1 class="hero-name animate-on-scroll">
+          <span class="name-line">Maria</span>
+          <span class="name-line accent-stroke">Popova</span>
+        </h1>
+        <p class="hero-tagline animate-on-scroll">Designer. Animator. Creative Thinker.</p>
+        <div class="hero-cta animate-on-scroll">
+          <a href="#work" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ───────────── ABOUT ───────────── -->
+    <section class="about section" id="about" aria-label="About me">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrap animate-on-scroll">
+            <div class="about-image-frame">
+              <img
+                src="https://placehold.co/480x580/111827/6366f1?text=Maria+Popova"
+                alt="Photo of Maria Popova"
+                class="about-image"
+                width="480"
+                height="580"
+                loading="lazy"
+              />
+              <div class="about-image-deco" aria-hidden="true"></div>
+            </div>
+            <div class="about-badge animate-on-scroll">
+              <span class="badge-number">2025</span>
+              <span class="badge-label">Grad</span>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p class="section-label animate-on-scroll">About Me</p>
+            <h2 class="section-title animate-on-scroll">Crafting stories <em>through pixels</em> and motion.</h2>
+            <p class="about-bio animate-on-scroll">
+              I'm a multidisciplinary designer who loves bringing ideas to life through motion, interaction, and visual storytelling. Currently finishing my diploma in Interactive Design and Animation.
+            </p>
+            <p class="about-bio animate-on-scroll">
+              I believe great design lives at the intersection of aesthetics and function — where a well-timed animation or a considered typographic choice can completely transform how a story lands.
+            </p>
+            <div class="about-stats animate-on-scroll">
+              <div class="stat">
+                <span class="stat-num">6+</span>
+                <span class="stat-desc">Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">3+</span>
+                <span class="stat-desc">Years learning</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">7</span>
+                <span class="stat-desc">Tools mastered</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── WORK ───────────── -->
+    <section class="work section" id="work" aria-label="Projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label animate-on-scroll">Selected Work</p>
+          <h2 class="section-title animate-on-scroll">Things I've <em>made</em>.</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card animate-on-scroll" tabindex="0" aria-label="Project: Brand Identity — Cafe Luna">
+            <div class="card-image-wrap">
+              <img
+                src="https://placehold.co/700x480/0f172a/6366f1?text=Cafe+Luna"
+                alt="Brand identity project for Cafe Luna"
+                class="card-image"
+                width="700"
+                height="480"
+                loading="lazy"
+              />
+              <div class="card-overlay" aria-hidden="true">
+                <span class="card-overlay-tag">Branding</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Brand Identity — Cafe Luna</h3>
+              <p class="card-desc">Full visual identity system for an independent coffee brand.</p>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0" aria-label="Project: Motion Reel 2025">
+            <div class="card-image-wrap">
+              <img
+                src="https://placehold.co/700x480/0f172a/818cf8?text=Motion+Reel"
+                alt="Motion design reel 2025"
+                class="card-image"
+                width="700"
+                height="480"
+                loading="lazy"
+              />
+              <div class="card-overlay" aria-hidden="true">
+                <span class="card-overlay-tag">Motion</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Motion Reel 2025</h3>
+              <p class="card-desc">A curated compilation of motion graphics and animation work.</p>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0" aria-label="Project: UI Concept — Fitness App">
+            <div class="card-image-wrap">
+              <img
+                src="https://placehold.co/700x480/111827/6366f1?text=Fitness+App"
+                alt="UI concept design for a fitness app"
+                class="card-image"
+                width="700"
+                height="480"
+                loading="lazy"
+              />
+              <div class="card-overlay" aria-hidden="true">
+                <span class="card-overlay-tag">UI/UX</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">UI Concept — Fitness App</h3>
+              <p class="card-desc">Mobile-first interface design focused on habit tracking.</p>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0" aria-label="Project: 3D Character Design">
+            <div class="card-image-wrap">
+              <img
+                src="https://placehold.co/700x480/0f172a/a5b4fc?text=3D+Character"
+                alt="3D character design project"
+                class="card-image"
+                width="700"
+                height="480"
+                loading="lazy"
+              />
+              <div class="card-overlay" aria-hidden="true">
+                <span class="card-overlay-tag">3D</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">3D Character Design</h3>
+              <p class="card-desc">Original character modelled and rigged in Blender.</p>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0" aria-label="Project: Event Poster Series">
+            <div class="card-image-wrap">
+              <img
+                src="https://placehold.co/700x480/111827/818cf8?text=Poster+Series"
+                alt="Event poster series design"
+                class="card-image"
+                width="700"
+                height="480"
+                loading="lazy"
+              />
+              <div class="card-overlay" aria-hidden="true">
+                <span class="card-overlay-tag">Print</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Event Poster Series</h3>
+              <p class="card-desc">Bold typographic posters for a music & arts festival.</p>
+            </div>
+          </article>
+
+          <article class="project-card animate-on-scroll" tabindex="0" aria-label="Project: Interactive Infographic">
+            <div class="card-image-wrap">
+              <img
+                src="https://placehold.co/700x480/0f172a/6366f1?text=Infographic"
+                alt="Interactive infographic project"
+                class="card-image"
+                width="700"
+                height="480"
+                loading="lazy"
+              />
+              <div class="card-overlay" aria-hidden="true">
+                <span class="card-overlay-tag">Interactive</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Interactive Infographic</h3>
+              <p class="card-desc">Data-driven visual built for web with animated transitions.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── SKILLS ───────────── -->
+    <section class="skills section" id="skills" aria-label="Skills and tools">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label animate-on-scroll">Toolbox</p>
+          <h2 class="section-title animate-on-scroll">What I work <em>with</em>.</h2>
+        </div>
+
+        <div class="skills-grid animate-on-scroll">
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">Figma</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">After Effects</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">Photoshop</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">Illustrator</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">Blender</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">HTML / CSS</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon" aria-hidden="true">◈</span>
+            <span class="skill-name">Premiere Pro</span>
+          </div>
+        </div>
+
+        <div class="skills-marquee-wrap animate-on-scroll" aria-hidden="true">
+          <div class="skills-marquee">
+            <span>Design</span><span>✦</span>
+            <span>Motion</span><span>✦</span>
+            <span>Animation</span><span>✦</span>
+            <span>3D</span><span>✦</span>
+            <span>Branding</span><span>✦</span>
+            <span>UI/UX</span><span>✦</span>
+            <span>Visual Storytelling</span><span>✦</span>
+            <span>Design</span><span>✦</span>
+            <span>Motion</span><span>✦</span>
+            <span>Animation</span><span>✦</span>
+            <span>3D</span><span>✦</span>
+            <span>Branding</span><span>✦</span>
+            <span>UI/UX</span><span>✦</span>
+            <span>Visual Storytelling</span><span>✦</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── CONTACT ───────────── -->
+    <section class="contact section" id="contact" aria-label="Contact">
+      <div class="container">
+        <div class="contact-inner animate-on-scroll">
+          <p class="section-label">Get In Touch</p>
+          <h2 class="contact-heading">Let's build something <em>great</em> together.</h2>
+          <p class="contact-sub">I'm open to freelance work and creative collaboration. Drop me a line.</p>
+
+          <a href="/cdn-cgi/l/email-protection#7119141d1d1e311c10031810011e011e07105f121e1c" class="contact-email" aria-label="Send email to hello@mariapopova.com">
+            <span class="__cf_email__" data-cfemail="cca4a9a0a0a38ca1adbea5adbca3bca3baade2afa3a1">[email&#160;protected]</span>
+          </a>
+
+          <div class="social-links" role="list" aria-label="Social media links">
+            <a href="#" class="social-link" role="listitem" aria-label="Behance profile" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029H23.7zm-7.249-4h4.692c-.1-1.96-1.338-2.354-2.209-2.354-.967 0-2.275.355-2.483 2.354zM8 12.065c-1.588 0-2.363.742-2.363 2.292 0 1.615.842 2.427 2.363 2.427H10V12.065H8zm-.744-5.077c1.391 0 1.799.784 1.799 1.598 0 1.052-.591 1.612-1.799 1.612H5V6.988h2.256zM5 19h3.5c2.5 0 5-1.5 5-4.5S11 10 8.5 10H5v9z"/></svg>
+              Behance
+            </a>
+            <a href="#" class="social-link" role="listitem" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="#" class="social-link" role="listitem" aria-label="Instagram profile" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ───────────── FOOTER ───────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <span class="footer-logo">✦ Maria Popova</span>
+      <p class="footer-copy">&copy; 2026 Maria Popova. Built with care &amp; a little AI magic.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
